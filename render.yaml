@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: shopassist-api
+    name: compute_access_shop-api
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn shopassist_GV:app --host 0.0.0.0 --port 10000
+    startCommand: uvicorn compute_access_shop_GV:app --host 0.0.0.0 --port 10000
     healthCheckPath: /health
     envVars:
       - key: OPENAI_API_KEY
