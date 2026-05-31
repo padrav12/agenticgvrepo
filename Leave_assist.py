@@ -38,7 +38,7 @@ print("All dependencies installed successfully.")
 
 
 import os
-import nest_asyncio
+#import nest_asyncio
 
 from dotenv import load_dotenv
 
@@ -63,7 +63,7 @@ import uvicorn
 
 # =========================================================
 
-nest_asyncio.apply()
+#nest_asyncio.apply()
 
 # =========================================================
 
